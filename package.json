@@ -1,0 +1,19 @@
+{
+  "name": "address-bloc",
+  "version": "1.0.0",
+  "description": "An application to model an address book in Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biksingh08/address-bloc.git"
+  },
+  "author": "Bikramjit Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biksingh08/address-bloc/issues"
+  },
+  "homepage": "https://github.com/biksingh08/address-bloc#readme"
+}
