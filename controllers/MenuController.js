@@ -39,6 +39,10 @@ module.exports = class MenuController {
    process.exit();
  }
 
+ getContactCount(){
+  return this.contacts.length;
+  }
+
   main(){
     console.log(`Welcome to AddressBloc!`);
     inquirer.prompt(this.mainMenuQuestions).then((response) => {

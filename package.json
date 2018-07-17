@@ -4,7 +4,7 @@
   "description": "An application to model an address book in Node",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "export NODE_ENV=test && jasmine"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/biksingh08/address-bloc#readme",
   "dependencies": {
     "inquirer": "^5.1.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0"
   }
 }
