@@ -34,6 +34,10 @@ module.exports = class MenuController {
    this.main();
  }
 
+ remindMe(){
+   return "Learning is a life-long pursuit"
+ }
+
   exit(){
    console.log("Thanks for using AddressBloc!");
    process.exit();
